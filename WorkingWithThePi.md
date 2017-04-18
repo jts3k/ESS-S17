@@ -1,1 +1,1 @@
-Download the Pi disk image [here](https://drive.google.com/file/d/0B5KAwRis5WlVSWwzNk1mYVY2UFk/view?usp=sharing).
+Download the Pi disk image [here](https://drive.google.com/file/d/0B5KAwRis5WlVSWwzNk1mYVY2UFk/view?usp=sharing).  Use [Pi Filler](http://ivanx.com/raspberrypi/) to copy this disk image onto an SD card.  This will give you a working machine that automagically boots up into a PureData patch called *launch.pd*.
