@@ -15,3 +15,5 @@ You'll probably want to edit the PD patches on a "real" desktop, so copy the PD 
 To copy all the PD files from the Pi to your Mac enter this in the terminal: ```scp -r pi@10.0.0.3:Documents/PD /Users/YourUserName/Documents/PD```
 
 To copy files from the Mac to the Pi in mac terminal: ```scp -r /Users/YourUserName/Documents/PD pi@10.0.0.3:Documents/PD```
+
+The full setup with cables and speakers and everything will look like this: ![pi-setup.jpg](images/pi-setup.jpg)

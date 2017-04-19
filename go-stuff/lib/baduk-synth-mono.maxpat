@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 3,
-			"revision" : 2,
+			"minor" : 2,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -97,7 +97,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 419.0, 252.0, 119.0, 22.0 ],
 					"style" : "",
-					"text" : "scale 0. 255. 0. 127."
+					"text" : "scale 0. 255. 32. 64."
 				}
 
 			}
@@ -147,9 +147,9 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 284.0, 252.0, 112.0, 22.0 ],
+					"patching_rect" : [ 284.0, 252.0, 119.0, 22.0 ],
 					"style" : "",
-					"text" : "scale 0. 255. 0. 64."
+					"text" : "scale 0. 255. 32. 64."
 				}
 
 			}
@@ -313,11 +313,6 @@
 		"styles" : [ 			{
 				"name" : "wm20150520a",
 				"default" : 				{
-					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
-					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
-					"fontname" : [ "Monaco" ],
-					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ],
-					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -328,7 +323,12 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"bgcolor" : [ 0.982943, 0.978557, 0.972212, 1.0 ],
+					"fontname" : [ "Monaco" ],
+					"accentcolor" : [ 0.85109, 0.842249, 0.830042, 1.0 ],
+					"elementcolor" : [ 0.780914, 0.800218, 0.843168, 1.0 ],
+					"color" : [ 0.18882, 0.288104, 0.351331, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

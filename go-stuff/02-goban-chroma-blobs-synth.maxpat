@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 3,
-			"revision" : 2,
+			"minor" : 2,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1120.0, 1323.0 ],
+		"rect" : [ 34.0, 79.0, 1150.0, 1307.0 ],
 		"bgcolor" : [ 0.823529, 0.823529, 0.764706, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -45,7 +45,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 566.0, 743.0, 58.0, 22.0 ],
-					"presentation_rect" : [ 566.0, 744.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "target $1"
 				}
@@ -72,7 +71,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 553.0, 692.0, 40.0, 22.0 ],
-					"presentation_rect" : [ 553.0, 693.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jit.iter"
 				}
@@ -535,8 +533,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 2,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -727,7 +725,6 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-9",
-									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -770,7 +767,6 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-1",
-									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -924,7 +920,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 336.75, 333.5, 402.0, 333.5 ],
-									"order" : 1,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -935,7 +930,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 336.75, 333.5, 471.0, 333.5 ],
-									"order" : 0,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -955,7 +949,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 425.5, 333.5, 436.0, 333.5 ],
-									"order" : 1,
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -966,7 +959,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 425.5, 333.5, 505.0, 333.5 ],
-									"order" : 0,
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -1127,7 +1119,6 @@
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1137,7 +1128,6 @@
 					"destination" : [ "obj-81", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1174,7 +1164,6 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1185,7 +1174,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 216.5, 540.0, 483.0, 540.0, 483.0, 649.0, 329.5, 649.0 ],
-					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1231,7 +1219,6 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1241,7 +1228,6 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 2,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1251,7 +1237,6 @@
 					"destination" : [ "obj-62", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1261,7 +1246,6 @@
 					"destination" : [ "obj-68", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-70", 0 ]
 				}
 
@@ -1272,7 +1256,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 697.5, 532.5, 964.0, 532.5, 964.0, 641.5, 810.5, 641.5 ],
-					"order" : 0,
 					"source" : [ "obj-70", 0 ]
 				}
 
@@ -1300,7 +1283,6 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-75", 0 ]
 				}
 
@@ -1310,7 +1292,6 @@
 					"destination" : [ "obj-71", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-75", 0 ]
 				}
 
@@ -1347,7 +1328,6 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -1357,7 +1337,6 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -1371,7 +1350,7 @@
 			}
 , 			{
 				"name" : "baduk-synth-mono.maxpat",
-				"bootpath" : "~/Github/ESS-S17/go-stuff",
+				"bootpath" : "~/Documents/Github/ESS-S17/go-stuff/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
