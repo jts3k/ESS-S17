@@ -17,3 +17,12 @@ To copy all the PD files from the Pi to your Mac enter this in the terminal: ```
 To copy files from the Mac to the Pi in mac terminal: ```scp -r /Users/YourUserName/Documents/PD pi@10.0.0.3:Documents/```
 
 The full setup with cables and speakers and everything will look like this: ![pi-setup.jpg](images/pi-setup.jpg)
+
+
+### Links to Other RPi and Linux Manuals 
+
+These contain good tutorials/manuals for working with Linux and RPi for installation. 
+
+[ofBook Installation Up 4ever Linux](http://openframeworks.cc/ofBook/chapters/installation_up_4evr_linux.html)
+[OF RPi setup guid](https://sfpc.hackpad.com/OF-RPi-Setup-Manual-D9EgUtoGFWQ)
+[RPi Up 4ever Notes](https://sfpc.hackpad.com/rPi-run-4-ever-qFgafqYPM54)
