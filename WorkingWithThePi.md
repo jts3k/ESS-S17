@@ -12,8 +12,8 @@ Once you're connected to the Pi enter ```vncserver``` to start a virtual desktop
 
 You'll probably want to edit the PD patches on a "real" desktop, so copy the PD files from the Pi to your laptop for editing then copy them back when you're ready to test them on the Pi.
 
-To copy all the PD files from the Pi to your Mac enter this in the terminal: ```scp -r pi@10.0.0.3:Documents/PD /Users/YourUserName/Documents/PD```
+To copy all the PD files from the Pi to your Mac enter this in the terminal: ```scp -r pi@10.0.0.3:Documents/PD /Users/YourUserName/Documents/```
 
-To copy files from the Mac to the Pi in mac terminal: ```scp -r /Users/YourUserName/Documents/PD pi@10.0.0.3:Documents/PD```
+To copy files from the Mac to the Pi in mac terminal: ```scp -r /Users/YourUserName/Documents/PD pi@10.0.0.3:Documents/```
 
 The full setup with cables and speakers and everything will look like this: ![pi-setup.jpg](images/pi-setup.jpg)
